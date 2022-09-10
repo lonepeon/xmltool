@@ -1,5 +1,8 @@
 BIN_PATH := target/xmltool
 
+.PHONY: build
+build: $(BIN_PATH)-linux-amd64 $(BIN_PATH)-windows-amd64
+
 $(BIN_PATH):
 	go build -o $@
 
@@ -15,4 +18,4 @@ $(BIN_PATH)-windows-amd64:
 
 .PHONY: clean
 clean:
-	rm -rf $(dir $(BIN_PATH))
+	rm -rf $(dir $(BIN_PATH)) testfiles

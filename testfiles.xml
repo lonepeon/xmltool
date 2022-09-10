@@ -1,0 +1,16 @@
+<fluxASS attr="value" other-attr="othervalue">>
+  <compte another-attr="another">
+    <some>data</some>
+    <with>
+      <nested>nested</nested>
+      <datastructure>datastructure</datastructure>
+    </with>
+  </compte>
+  <compte yet-another-attr="yet-another">
+    <some>data2</some>
+    <with>
+      <nested>nested2</nested>
+      <datastructure>datastructure2</datastructure>
+    </with>
+  </compte>
+</fluxASS>
